@@ -3,9 +3,42 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EnterpriseBusinessRules", "EnterpriseBusinessRules", "{63D94D2D-650D-4771-9FB3-2FF743568051}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationBusinessRules", "ApplicationBusinessRules", "{A00895E7-4045-4887-812B-AAFC520E05B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterfaceAdapters", "InterfaceAdapters", "{CBF1F180-E007-4848-8A6D-E2AF5B6158CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frameworks And Drivers", "Frameworks And Drivers", "{8B41773F-2345-462E-9AED-507CBB7EDA82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWay.Entities", "NorthWay.Entities\NorthWay.Entities.csproj", "{BFD2F77B-6CD0-430C-8582-B9DCCEE6923F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GateWays", "GateWays", "{8A6CA191-F9D7-4CB2-9822-059A1BDF486D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Repository.EFCore", "NorthWind.Repository.EFCore\NorthWind.Repository.EFCore.csproj", "{F12E1DCA-0841-4CD0-86D7-05A1ACF60E46}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFD2F77B-6CD0-430C-8582-B9DCCEE6923F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD2F77B-6CD0-430C-8582-B9DCCEE6923F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD2F77B-6CD0-430C-8582-B9DCCEE6923F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD2F77B-6CD0-430C-8582-B9DCCEE6923F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F12E1DCA-0841-4CD0-86D7-05A1ACF60E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12E1DCA-0841-4CD0-86D7-05A1ACF60E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12E1DCA-0841-4CD0-86D7-05A1ACF60E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12E1DCA-0841-4CD0-86D7-05A1ACF60E46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFD2F77B-6CD0-430C-8582-B9DCCEE6923F} = {63D94D2D-650D-4771-9FB3-2FF743568051}
+		{8A6CA191-F9D7-4CB2-9822-059A1BDF486D} = {CBF1F180-E007-4848-8A6D-E2AF5B6158CE}
+		{F12E1DCA-0841-4CD0-86D7-05A1ACF60E46} = {8A6CA191-F9D7-4CB2-9822-059A1BDF486D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2134A756-6134-4539-808F-00A923D4204C}
